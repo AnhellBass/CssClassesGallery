@@ -1,0 +1,104 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+
+	<style>
+
+	* {
+		margin:0;
+	}
+	
+	header{
+		height: 50px;
+		background-color: cyan;
+	}
+
+
+	@media(max-width: 800px){
+		   
+	   .footer-section .container{
+	   	width:48%;
+	   	height: 120px;
+	   	background-color: blue;
+	   	float: left;
+	   	margin: 1%;
+		}
+	}
+
+	    @media(max-width: 480px){
+
+		   .footer-section .container{ /* se deja un espacio en container para que afecte a todos los elementos*/
+		   	width:98%;
+		   	height: 120px;
+		   	background-color: blue;
+		   	float: left;
+		   	margin: 1%;
+		}
+	}
+
+	div div{
+		width: 50%;
+		height: 200px;
+		background-size: cover;
+	}
+
+	#image-1{
+		background-image: url("https://images.unsplash.com/photo-1547407748-f8ee7eba99be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+	}
+	#image2{
+		background-image: url("https://images.unsplash.com/photo-1547425098-295bc7c85782?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+	}
+
+	#image3{
+		background-image: url("https://images.unsplash.com/photo-1547424111-4e6f5468a0c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+	}
+	#image4{
+		background-image: url("http://culturacientifica.com/app/uploads/2018/01/agua-cruda-1.jpg");
+	}
+
+	#image5{
+		background-image: url("https://www.swimtonictech.com/wp-content/uploads/2018/03/planeta-en-agua-1920x1080.jpg");
+	}
+	#image6{
+		background-image: url("https://okdiario.com/img/2017/03/31/caracteristicas-del-plomo-655x368.jpg");
+	}
+	#image7{
+		background-image: url("https://images1.tiendanimal.es/g/hueso-antisarro-snack-para-perros-mta-9337.jpg");
+	}
+	#image8{
+		background-image: url("https://shop-cdn-m.shpp.ext.zooplus.io/bilder/barkoo/huesos/naturales/con/nudos/de/vacuno/para/perros/4/400/57308_barkoo_kauknochen_geknotet_natur_web_4.jpg");
+	}
+	#image9{
+		background-image: url("https://images1.tiendanimal.es/g/13700-snack-hueso-ahumado-largo-ternera-para-perros.jpg");
+	}
+
+	 .contains-float-element:after{
+	/*clear: both;*/
+	content: ;
+	display: block;
+	   }
+
+
+
+	</style>
+	</head>
+	<body>
+	<h1>AGUA</h1>
+	
+<div class="page contains-float-element">
+	<div>
+		    
+		 <div id = 'image-1'></div>
+		 <div id = 'image2'></div>
+		 <div id='image3'></div>
+		 <div id='image4'></div>
+		 <div id='image5'></div>
+		 <div id='image6'></div>
+	    <div id='image7'></div>
+	    <div id='image8'></div>
+	    <div id='image9'></div>
+		 </div>
+</div>
+	</body>
+	</html>
